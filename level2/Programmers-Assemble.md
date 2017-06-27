@@ -1,4 +1,4 @@
-**
+
 "You found a text file with some really low level code. 
 Some value at the beginning has been X'ed out. Can you figure out what should be there, 
 to make main return the value 0x1? Submit the answer as a hexidecimal number, with no extraneous 0s. 
@@ -26,7 +26,7 @@ good:
     mov $1, %eax
 end:
     ret
-    **
+    
 
 
 Looking at this code, we can see that ebx = 0 and ecx = 5 in main.
