@@ -87,4 +87,4 @@ main:
 end:
     ret
   ```
-  If the value in ebx was equal to 0x65c7, good will place the value 1 into eax then return 1.  Otherwise, it will return 0.
+  If the value in ebx was equal to 0x65c7, "good" will place the value 1 into eax then return 1.  Otherwise, it will return 0.
