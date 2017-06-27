@@ -26,7 +26,7 @@ good:
     mov $1, %eax
 end:
     ret
-    
+    **
 
 
 Looking at this code, we can see that ebx = 0 and ecx = 5 in main.
