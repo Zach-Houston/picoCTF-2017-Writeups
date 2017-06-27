@@ -44,7 +44,7 @@ After the loop, ebx is compared to 0x65c7 to determine if they are equal.
 __In hex, this is 0x145b, giving us the flag.__
 
 
-# More in depth:
+# More indepth:
 ```
 main:
     mov $XXXXXXX, %eax
