@@ -75,7 +75,8 @@ main:
     je good
     mov $0, %eax
     jmp end
-    ```
+  ```
+    
  Compare ebx to 0x65c7.
  If they are equal, jump to the "good" function.
  Otherwise put the value 0 into eax and jump to the end.
@@ -85,5 +86,5 @@ main:
     mov $1, %eax
 end:
     ret
-    ```
+  ```
   If the value in ebx was equal to 0x65c7, good will place the value 1 into eax then return 1.  Otherwise, it will return 0.
